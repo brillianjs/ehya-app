@@ -1,160 +1,296 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ehya</title>
-    <link rel="stylesheet" href="./output.css">
-</head>
-<body>
-    <div class="w-full relative">
+    <link rel="stylesheet" href="./output.css" />
+  </head>
+  <body>
+    <div class="w-full relative flex justify-center flex-col items-center">
+      <!-- Navigation -->
 
-        <!-- Navigation -->
-
-        <nav class="w-full flex flex-row justify-between px-28 py-7 items-center bg-white">
-            <div>
-                <img src="./assets/image/Logo.png" alt="logo">
-            </div>
-
-            <div class="sm:flex flex-row space-x-5 items-center font-semibold hidden ">
-                <span>Home</span>
-                <div class="flex flex-row items-center space-x-1">
-                    <span>Landings</span>
-                    <span><img src="./assets/image/angledown.png" alt=""></span>
-                </div>
-                <div class="flex flex-row items-center space-x-1">
-                    <span>Pages</span>
-                    <span><img src="./assets/image/angledown.png" alt=""></span>
-                </div>
-                <span>Docs</span>
-                <span>Help</span>
-                <Button class="border-secondary border-2 px-5 py-2 rounded-xl text-secondary">Get it now</Button>
-            </div>
-        </nav>
-
-        <div class="flex flex-col items-center my-6">
-            <div class="w-full flex flex-row justify-center px-20 bg-primary bg-opacity-10 max-w-screen-2xl rounded-xl">
-                <div class="w-full flex flex-col items-start justify-center">
-                    <h1 class="font-bold text-5xl text-primary2">Browse Million</h1>
-                    <h1 class="font-bold text-5xl text-primary2">Products for Your Needs</h1>
-                    <div class="pt-7 w-full flex flex-row relative cursor-pointer">
-                        <input type="text" class="w-full rounded-md py-5 px-3 relative" placeholder="I want to buy...">
-                        <img src="./assets/image/search.png" alt="search" class="absolute right-2 bottom-3 bg-search p-3 rounded-lg">
-                    </div>
-                </div>
-    
-                <div class="w-full py-3">
-                    <img src="assets/image/co.png" class="relative top-10" alt="checkout">
-                </div>
-            </div>    
+      <nav
+        class="w-full flex flex-row justify-between md:px-28 px-5 py-7 items-center bg-white"
+      >
+        <div>
+          <img src="./assets/image/Logo.png" alt="logo" />
         </div>
 
-        <div class="w-full flex flex-col justify-center items-center my-10 py-10">
-            <div class="w-full flex flex-row justify-center items-center space-x-8 max-w-7xl container">
-                <div class="w-full flex flex-col justify-center items-center bg-slate-100 rounded-xl py-9 px-9">
-                    <h1 class="text-sm text-secondary font-semibold">WEEKLY DEALS</h1>
-                    <h1 class="font-bold text-2xl py-2">Free Delivery</h1>
-                    <div class="w-full flex flex-row justify-center items-center space-x-2 cursor-pointer">
-                        <p class="text-sm text-secondary font-bold">Learn More</p>
-                        <span><img src="./assets/image/arrow-right.png" alt="arrow-right"></span>
-                    </div>
-                    <img src="./assets/image/delivery.png" class="pt-7" alt="delivery">
-                </div>
-    
-                <div class="w-full flex flex-col justify-center items-center space-y-2 max-w-xs">
-                    <div class="w-full flex flex-row bg-slate-100 rounded-xl">
-                        <div class="w-full flex flex-col justify-center items-start px-4">
-                            <h1 class="font-bold text-2xl">Disc Up to 25%</h1>
-                            <div class="w-full flex flex-row justify-start items-center space-x-2 cursor-pointer py-3">
-                                <p class="text-sm text-secondary font-bold">Learn More</p>
-                                <span><img src="./assets/image/arrow-right.png" alt="arrow-right"></span>
-                            </div>
-                        </div>
-                        <img src="./assets/image/shopping-cart-mobile.png" class="w-full" alt="shopping-cart-mobile">
-                    </div>
-    
-                    <div class="w-full flex flex-row bg-slate-100 rounded-xl">
-                        <img src="./assets/image/call-center.png" class="pt-7" alt="call-center">
-                        <div class="w-full flex flex-col justify-center items-start px-4">
-                            <h1 class="font-bold text-2xl">Free 5GB Data</h1>
-                            <div class="w-full flex flex-row justify-start items-center space-x-2 cursor-pointer py-3">
-                                <p class="text-sm text-secondary font-bold">Learn More</p>
-                                <span><img src="./assets/image/arrow-right.png" alt="arrow-right"></span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-    
-                <div class="w-full flex flex-col justify-center items-center bg-slate-100 rounded-xl py-5 px-9">
-                    <h1 class="font-bold text-2xl">EhyaVersarry</h1>
-                    <h1 class="font-bold text-2xl py-2">Monthly Deals</h1>
-                    <div class="w-full flex flex-row justify-center items-center space-x-2 cursor-pointer">
-                        <p class="text-sm text-secondary font-bold">Learn More</p>
-                        <span><img src="./assets/image/arrow-right.png" alt="arrow-right"></span>
-                    </div>
-                    <img src="./assets/image/welcome.png" class="pt-7" alt="welcome">
-                </div>
+        <div
+          class="md:flex hidden flex-row space-x-5 items-center font-semibold "
+        >
+          <span>Home</span>
+          <div class="flex flex-row items-center space-x-1">
+            <span>Landings</span>
+            <span><img src="./assets/image/angledown.png" alt="" /></span>
+          </div>
+          <div class="flex flex-row items-center space-x-1">
+            <span>Pages</span>
+            <span><img src="./assets/image/angledown.png" alt="" /></span>
+          </div>
+          <span>Docs</span>
+          <span>Help</span>
+          <button
+            class="border-secondary border-2 px-5 py-2 rounded-xl text-secondary"
+          >
+            Get it now
+          </button>
+        </div>
+        <span class="p-2 border rounded-lg cursor-pointer md:hidden block">
+            <img src="./assets/image/hamburger.png" alt="hamburger">
+        </span>
+      </nav>
+
+      <div class="flex flex-col items-center my-6 md:pl-20 md:p-0 p-5 ">
+        <div
+          class="w-full flex flex-col md:flex-row  justify-center  px-20 bg-primary bg-opacity-10 max-w-screen-2xl rounded-xl"
+        >
+          <div class="w-full flex flex-col items-start py-10 justify-center">
+            <h1 class="font-bold md:text-5xl text-4xl text-primary2">Browse Million</h1>
+            <h1 class="font-bold md:text-5xl text-4xl text-primary2">
+              Products for Your Needs
+            </h1>
+            <div class="pt-7 w-full flex flex-row relative cursor-pointer">
+              <input
+                type="text"
+                class="w-full rounded-md py-5 px-3 relative"
+                placeholder="I want to buy..."
+              />
+              <img
+                src="./assets/image/search.png"
+                alt="search"
+                class="absolute right-2 bottom-3 bg-search p-3 rounded-lg"
+              />
             </div>
+          </div>
+
+          <div class="w-full py-3">
+            <img
+              src="assets/image/co.png"
+              class="relative top-10"
+              alt="checkout"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="max-w-6xl container">
+
+
+      <div class="w-full flex flex-col justify-center items-center my-10 py-10">
+        <div
+          class="w-full flex flex-row justify-center items-center space-x-8 max-w-7xl container"
+        >
+          <div
+            class="w-full flex flex-col justify-center items-center bg-slate-100 rounded-xl py-9 px-9"
+          >
+            <h1 class="text-sm text-secondary font-semibold">WEEKLY DEALS</h1>
+            <h1 class="font-bold text-2xl py-2">Free Delivery</h1>
+            <div
+              class="w-full flex flex-row justify-center items-center space-x-2 cursor-pointer"
+            >
+              <p class="text-sm text-secondary font-bold">Learn More</p>
+              <span
+                ><img src="./assets/image/arrow-right.png" alt="arrow-right"
+              /></span>
+            </div>
+            <img
+              src="./assets/image/delivery.png"
+              class="pt-7"
+              alt="delivery"
+            />
+          </div>
+
+          <div
+            class="w-full flex flex-col justify-center items-center space-y-2 max-w-xs"
+          >
+            <div class="w-full flex flex-row bg-slate-100 rounded-xl">
+              <div class="w-full flex flex-col justify-center items-start px-4">
+                <h1 class="font-bold text-2xl">Disc Up to 25%</h1>
+                <div
+                  class="w-full flex flex-row justify-start items-center space-x-2 cursor-pointer py-3"
+                >
+                  <p class="text-sm text-secondary font-bold">Learn More</p>
+                  <span
+                    ><img
+                      src="./assets/image/arrow-right.png"
+                      alt="arrow-right"
+                  /></span>
+                </div>
+              </div>
+              <img
+                src="./assets/image/shopping-cart-mobile.png"
+                class="w-full"
+                alt="shopping-cart-mobile"
+              />
+            </div>
+
+            <div class="w-full flex flex-row bg-slate-100 rounded-xl">
+              <img
+                src="./assets/image/call-center.png"
+                class="pt-7"
+                alt="call-center"
+              />
+              <div class="w-full flex flex-col justify-center items-start px-4">
+                <h1 class="font-bold text-2xl">Free 5GB Data</h1>
+                <div
+                  class="w-full flex flex-row justify-start items-center space-x-2 cursor-pointer py-3"
+                >
+                  <p class="text-sm text-secondary font-bold">Learn More</p>
+                  <span
+                    ><img
+                      src="./assets/image/arrow-right.png"
+                      alt="arrow-right"
+                  /></span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="w-full flex flex-col justify-center items-center bg-slate-100 rounded-xl py-5 px-9"
+          >
+            <h1 class="font-bold text-2xl">EhyaVersarry</h1>
+            <h1 class="font-bold text-2xl py-2">Monthly Deals</h1>
+            <div
+              class="w-full flex flex-row justify-center items-center space-x-2 cursor-pointer"
+            >
+              <p class="text-sm text-secondary font-bold">Learn More</p>
+              <span
+                ><img src="./assets/image/arrow-right.png" alt="arrow-right"
+              /></span>
+            </div>
+            <img src="./assets/image/welcome.png" class="pt-7" alt="welcome" />
+          </div>
+        </div>
+      </div>
+
+      <!-- Catergory Component -->
+
+      <div class="w-full flex flex-col space-y-10 py-12">
+        <!-- Title and button container -->
+        <div class="w-full flex justify-between items-center">
+          <h1 class="text-3xl font-bold text-primary2">Categories</h1>
+          <button
+            class="text-secondary bg-white border-2 border-secondary px-8 py-3 rounded-full font-semibold"
+          >
+            Show All
+          </button>
+        </div>
+        <!-- Container Card -->
+        <div class="w-full flex flex-row justify-between items-center snap-x">
+          <div
+            class="border border-gray-400 hover:border-none cursor-pointer hover:shadow-xl p-5 rounded-lg flex justify-center items-center flex-col space-y-3"
+          >
+            <div class="border-4 border-dashed">
+              <img src="./assets/image/category.png" alt="category" />
+            </div>
+            <h1 class="text-xl font-bold text-primary2">Fashion</h1>
+            <p class="text-gray-400">290K Items</p>
+          </div>
+          <div
+            class="border border-gray-400 hover:border-none cursor-pointer hover:shadow-xl p-5 rounded-lg flex justify-center items-center flex-col space-y-3"
+          >
+            <div class="border-4 border-dashed">
+              <img src="./assets/image/category.png" alt="category" />
+            </div>
+            <h1 class="text-xl font-bold text-primary2">Fashion</h1>
+            <p class="text-gray-400">290K Items</p>
+          </div>
+          <div
+            class="border border-gray-400 hover:border-none cursor-pointer hover:shadow-xl p-5 rounded-lg flex justify-center items-center flex-col space-y-3"
+          >
+            <div class="border-4 border-dashed">
+              <img src="./assets/image/category.png" alt="category" />
+            </div>
+            <h1 class="text-xl font-bold text-primary2">Fashion</h1>
+            <p class="text-gray-400">290K Items</p>
+          </div>
+          <div
+            class="border border-gray-400 hover:border-none cursor-pointer hover:shadow-xl p-5 rounded-lg flex justify-center items-center flex-col space-y-3"
+          >
+            <div class="border-4 border-dashed">
+              <img src="./assets/image/category.png" alt="category" />
+            </div>
+            <h1 class="text-xl font-bold text-primary2">Fashion</h1>
+            <p class="text-gray-400">290K Items</p>
+          </div>
+          <div
+            class="border border-gray-400 hover:border-none cursor-pointer hover:shadow-xl p-5 rounded-lg flex justify-center items-center flex-col space-y-3"
+          >
+            <div class="border-4 border-dashed">
+              <img src="./assets/image/category.png" alt="category" />
+            </div>
+            <h1 class="text-xl font-bold text-primary2">Fashion</h1>
+            <p class="text-gray-400">290K Items</p>
+          </div>
+          <div
+            class="border border-gray-400 hover:border-none cursor-pointer hover:shadow-xl p-5 rounded-lg flex justify-center items-center flex-col space-y-3"
+          >
+            <div class="border-4 border-dashed">
+              <img src="./assets/image/category.png" alt="category" />
+            </div>
+            <h1 class="text-xl font-bold text-primary2">Fashion</h1>
+            <p class="text-gray-400">290K Items</p>
+          </div>
         </div>
 
-        <!-- Catergory Component -->
-
-        <div class="w-full flex flex-col space-y-10 p-12">
-            <!-- Title and button container -->
-            <div class="w-full flex justify-between items-center">
-                <h1 class="text-3xl font-bold text-primary2">Categories</h1>
-                <button class="text-secondary bg-white border-2 border-secondary px-8 py-3 rounded-full font-semibold">Show All</button>
+        <!-- Recomended For You -->
+        <div class="w-full flex flex-col space-y-10 py-12">
+          <!-- Title and button container -->
+          <div class="w-full flex justify-between items-center">
+            <h1 class="text-3xl font-bold text-primary2">
+              Recommended for You
+            </h1>
+            <button
+              class="text-secondary bg-white border-2 border-secondary px-8 py-3 rounded-full font-semibold"
+            >
+              Show All
+            </button>
+          </div>
+          <!-- container box -->
+          <div class="w-full flex flex-row justify-between text-center items-center space-x-5">
+            <div
+              class="max-w-xs container flex justify-center  items-center flex-col"
+            >
+              <img src="./assets/image/laptop.png" alt="laptop" />
+              <p class="font-semibold text-primary2  text-sm">
+                The best Anti Aging Cream with cheap price
+              </p>
             </div>
-            <!-- Container Card -->
-            <div class="w-full flex flex-row justify-between items-center">
-                <div class=" border  border-gray-400 hover:border-none cursor-pointer hover:shadow-xl  p-5 rounded-lg flex justify-center items-center flex-col space-y-3">
-                    <div class="border-4 border-dashed">
-                        <img src="./assets/image/category.png" alt="category">
-                    </div>
-                    <h1 class="text-xl font-bold text-primary2">Fashion</h1>
-                    <p class="text-gray-400">290K Items</p>
-                </div>
-                <div class=" border border-gray-400 hover:border-none cursor-pointer hover:shadow-xl  p-5 rounded-lg flex justify-center items-center flex-col space-y-3">
-                    <div class="border-4 border-dashed">
-                        <img src="./assets/image/category.png" alt="category">
-                    </div>
-                    <h1 class="text-xl font-bold text-primary2">Fashion</h1>
-                    <p class="text-gray-400">290K Items</p>
-                </div>
-                <div class=" border border-gray-400 hover:border-none cursor-pointer hover:shadow-xl  p-5 rounded-lg flex justify-center items-center flex-col space-y-3">
-                    <div class="border-4 border-dashed">
-                        <img src="./assets/image/category.png" alt="category">
-                    </div>
-                    <h1 class="text-xl font-bold text-primary2">Fashion</h1>
-                    <p class="text-gray-400">290K Items</p>
-                </div>
-                <div class=" border border-gray-400 hover:border-none cursor-pointer hover:shadow-xl  p-5 rounded-lg flex justify-center items-center flex-col space-y-3">
-                    <div class="border-4 border-dashed">
-                        <img src="./assets/image/category.png" alt="category">
-                    </div>
-                    <h1 class="text-xl font-bold text-primary2">Fashion</h1>
-                    <p class="text-gray-400">290K Items</p>
-                </div>
-                <div class=" border border-gray-400 hover:border-none cursor-pointer hover:shadow-xl  p-5 rounded-lg flex justify-center items-center flex-col space-y-3">
-                    <div class="border-4 border-dashed">
-                        <img src="./assets/image/category.png" alt="category">
-                    </div>
-                    <h1 class="text-xl font-bold text-primary2">Fashion</h1>
-                    <p class="text-gray-400">290K Items</p>
-                </div>
-                <div class=" border border-gray-400 hover:border-none cursor-pointer hover:shadow-xl  p-5 rounded-lg flex justify-center items-center flex-col space-y-3">
-                    <div class="border-4 border-dashed">
-                        <img src="./assets/image/category.png" alt="category">
-                    </div>
-                    <h1 class="text-xl font-bold text-primary2">Fashion</h1>
-                    <p class="text-gray-400">290K Items</p>
-                </div>
-                
-
+            <div
+              class="max-w-xs container flex justify-center items-center flex-col"
+            >
+              <img src="./assets/image/laptop.png" alt="laptop" />
+              <p class="font-semibold text-primary2  text-sm">
+                Best budget Headphone for RPG Gamers
+              </p>
             </div>
+            <div
+              class="max-w-xs container flex justify-center items-center flex-col"
+            >
+              <img src="./assets/image/laptop.png" alt="laptop" />
+              <p class="font-semibold text-primary2  text-sm">
+                Have a much project? You must have a this Savage Laptop
+              </p>
+            </div>
+            <div
+              class="max-w-xs container flex justify-center items-center flex-col"
+            >
+              <img src="./assets/image/laptop.png" alt="laptop" />
+              <p class="font-semibold text-primary2  text-sm">
+                Bored work from home? You can make a juice for your health
+              </p>
+            </div>
+          </div>
         </div>
+      </div>
+      <div class="border border-b-0 border-gray-400 w-full"></div>
+      <div class="h-screen">
 
-        
+      </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
