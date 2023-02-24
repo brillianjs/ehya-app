@@ -8,6 +8,7 @@ module.exports = {
         primary: "#00B9FF",
         search: "#00B8D9",
         secondary2: "#183B56",
+        font1: "#5A7184",
       },
     },
   },

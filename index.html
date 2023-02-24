@@ -54,10 +54,12 @@
             </div>    
         </div>
 
-        <!-- Weekly Deals -->
-        <div class="w-full flex flex-col px-20">
-            <div class="w-full flex flex-col justify-center items-center my-10 py-10">
-                <div class="w-full flex sm:flex-row flex-col justify-center items-center sm:space-x-8">
+        <div class="w-full flex flex-col px-20 py-10">
+            <div class="grid grid-cols-3 grid-flow-row gap-4 my-10">
+                
+                <!-- Weekly Deals -->
+
+                <div class=" flex justify-center row-span-2">
                     <div class="w-full flex flex-col justify-center items-center bg-slate-100 rounded-xl py-5 px-9">
                         <h1 class="text-sm text-secondary font-semibold">WEEKLY DEALS</h1>
                         <h1 class="font-bold text-2xl py-2">Free Delivery</h1>
@@ -67,31 +69,22 @@
                         </div>
                         <img src="./assets/image/delivery.png" class="pt-7" alt="delivery">
                     </div>
-        
-                    <div class="w-full h-full flex flex-col justify-center items-center space-y-2 container max-w-xs">
-                        <div class="w-full flex flex-row bg-slate-100 rounded-xl">
-                            <div class="w-full flex flex-col justify-center items-start px-4">
-                                <h1 class="font-bold text-2xl">Disc Up to 25%</h1>
-                                <div class="w-full flex flex-row justify-start items-center space-x-2 cursor-pointer py-3">
-                                    <p class="text-sm text-secondary font-bold">Learn More</p>
-                                    <span><img src="./assets/image/arrow-right.png" alt="arrow-right"></span>
-                                </div>
-                            </div>
-                            <img src="./assets/image/shopping-cart-mobile.png" class="w-full" alt="shopping-cart-mobile">
-                        </div>
-        
-                        <div class="w-full flex flex-row bg-slate-100 rounded-xl">
-                            <img src="./assets/image/call-center.png" class="pt-7" alt="call-center">
-                            <div class="w-full flex flex-col justify-center items-start px-4">
-                                <h1 class="font-bold text-2xl">Free 5GB Data</h1>
-                                <div class="w-full flex flex-row justify-start items-center space-x-2 cursor-pointer py-3">
-                                    <p class="text-sm text-secondary font-bold">Learn More</p>
-                                    <span><img src="./assets/image/arrow-right.png" alt="arrow-right"></span>
-                                </div>
+                </div>
+                <!-- Disc up to 25% -->
+                <div class=" flex justify-center">
+                    <div class="w-full flex flex-row bg-slate-100 rounded-xl">
+                        <div class="w-full flex flex-col justify-center items-start px-4">
+                            <h1 class="font-bold text-2xl">Disc Up to 25%</h1>
+                            <div class="w-full flex flex-row justify-start items-center space-x-2 cursor-pointer py-3">
+                                <p class="text-sm text-secondary font-bold">Learn More</p>
+                                <span><img src="./assets/image/arrow-right.png" alt="arrow-right"></span>
                             </div>
                         </div>
+                        <img src="./assets/image/shopping-cart-mobile.png" class="w-full" alt="shopping-cart-mobile">
                     </div>
-        
+                </div>
+                <!-- Free 5GB Data -->
+                <div class=" flex justify-center row-span-2">
                     <div class="w-full flex flex-col justify-center items-center bg-slate-100 rounded-xl py-5 px-9">
                         <h1 class="font-bold text-xl">EhyaVersarry</h1>
                         <h1 class="font-bold text-xl py-2">Monthly Deals</h1>
@@ -100,6 +93,19 @@
                             <span><img src="./assets/image/arrow-right.png" alt="arrow-right"></span>
                         </div>
                         <img src="./assets/image/welcome.png" class="pt-7" alt="welcome">
+                    </div>
+                </div>
+                <!-- EhyaVersarry -->
+                <div class=" flex justify-center">
+                    <div class="w-full flex flex-row bg-slate-100 rounded-xl">
+                        <img src="./assets/image/call-center.png" class="pt-7" alt="call-center">
+                        <div class="w-full flex flex-col justify-center items-start px-4">
+                            <h1 class="font-bold text-2xl">Free 5GB Data</h1>
+                            <div class="w-full flex flex-row justify-start items-center space-x-2 cursor-pointer py-3">
+                                <p class="text-sm text-secondary font-bold">Learn More</p>
+                                <span><img src="./assets/image/arrow-right.png" alt="arrow-right"></span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -212,6 +218,70 @@
 
                 <div class="border border-b-0"></div>
                 
+            </div>
+
+            
+        </div>
+
+        <!-- Email Subscribe -->
+
+        <div class="px-12"">
+            <div class="grid grid-cols-2 grid-flow-row gap-10 bg-search rounded-lg">
+                <div class="flex justify-center items-center">
+                    <img src="./assets/image/foreign.png" class="relative top-10" alt="">
+                </div>
+                <div class="flex flex-col justify-center items-start space-y-7">
+                    <h1 class="text-white font-semibold text-3xl">Never Miss a Promo</h1>
+                    <h1 class="text-white text-xl pr-64">We always give our customer a promo to gave the appreciate for loyalty to us. Just subscribe to us :)</h1>
+                    <div class="flex flex-row w-max relative">
+                        <input type="text" class="pr-64 pl-5 py-5 rounded-xl" placeholder="yourname@mail.com">
+                        <button class="absolute right-5 top-3 bg-search px-3 py-2 rounded-xl">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="w-full flex flex-col px-20 my-20">
+            <div class="grid grid-cols-5 grid-flow-row gap-5 font-bold text-lg text-secondary2 mt-10 mb-5">
+                <div>
+                    <img src="./assets/image/Logo.png" alt="">
+                </div>
+                <div>Product</div>
+                <div>Services</div>
+                <div>Company</div>
+                <div>More</div>
+            </div>
+
+            <div class="grid grid-cols-5 grid-flow-row gap-5">
+                <div class="flex flex-col justify-start space-y-5 text-font1 text-sm">
+                    <h1>Build a modern and creative website with crealand</h1>
+                </div>
+                <div class="flex flex-col justify-start space-y-5 text-secondary2 text-sm font-semibold">
+                    <h1>Landingpage</h1>
+                    <h1>Features</h1>
+                    <h1>Documentation</h1>
+                    <h1>Referral Program</h1>
+                    <h1>Pricing</h1>
+                </div>
+                <div class="flex flex-col justify-start space-y-5 text-secondary2 text-sm font-semibold">
+                    <h1>Documentation</h1>
+                    <h1>Design</h1>
+                    <h1>Themes</h1>
+                    <h1>Illustrations</h1>
+                    <h1>UI Kit</h1>
+                </div>
+                <div class="flex flex-col justify-start space-y-5 text-secondary2 text-sm font-semibold">
+                    <h1>About</h1>
+                    <h1>Terms</h1>
+                    <h1>Privacy Policy</h1>
+                    <h1>Careers</h1>
+                </div>
+                <div class="flex flex-col justify-start space-y-5 text-secondary2 text-sm font-semibold">
+                    <h1>Documentation</h1>
+                    <h1>License</h1>
+                    <h1>Changelog</h1>
+                </div>
             </div>
         </div>
     </div>
