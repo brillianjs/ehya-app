@@ -55,11 +55,11 @@
         </div>
 
         <div class="w-full flex flex-col px-20 py-10">
-            <div class="grid grid-cols-3 grid-flow-row gap-4 my-10">
+            <div class="sm:grid flex flex-col md:grid-cols-3 sm:grid-rows-2 grid-rows-4 md:grid-flow-row grid-flow-col gap-4 my-10">
                 
                 <!-- Weekly Deals -->
 
-                <div class=" flex justify-center row-span-2">
+                <div class=" flex justify-center md:row-span-2">
                     <div class="w-full flex flex-col justify-center items-center bg-slate-100 rounded-xl py-5 px-9">
                         <h1 class="text-sm text-secondary font-semibold">WEEKLY DEALS</h1>
                         <h1 class="font-bold text-2xl py-2">Free Delivery</h1>
@@ -71,20 +71,20 @@
                     </div>
                 </div>
                 <!-- Disc up to 25% -->
-                <div class=" flex justify-center">
+                <div class=" flex justify-center md:h-full h-1/2">
                     <div class="w-full flex flex-row bg-slate-100 rounded-xl">
                         <div class="w-full flex flex-col justify-center items-start px-4">
-                            <h1 class="font-bold text-2xl">Disc Up to 25%</h1>
+                            <h1 class="font-bold md:text-2xl text-xl">Disc Up to 25%</h1>
                             <div class="w-full flex flex-row justify-start items-center space-x-2 cursor-pointer py-3">
                                 <p class="text-sm text-secondary font-bold">Learn More</p>
                                 <span><img src="./assets/image/arrow-right.png" alt="arrow-right"></span>
                             </div>
                         </div>
-                        <img src="./assets/image/shopping-cart-mobile.png" class="w-full" alt="shopping-cart-mobile">
+                        <img src="./assets/image/shopping-cart-mobile.png" class="md:w-full w-1/2" alt="shopping-cart-mobile">
                     </div>
                 </div>
-                <!-- Free 5GB Data -->
-                <div class=" flex justify-center row-span-2">
+                <!-- EhyaVersarry -->
+                <div class=" flex justify-center md:row-span-2 sm:order-none order-last">
                     <div class="w-full flex flex-col justify-center items-center bg-slate-100 rounded-xl py-5 px-9">
                         <h1 class="font-bold text-xl">EhyaVersarry</h1>
                         <h1 class="font-bold text-xl py-2">Monthly Deals</h1>
@@ -95,12 +95,12 @@
                         <img src="./assets/image/welcome.png" class="pt-7" alt="welcome">
                     </div>
                 </div>
-                <!-- EhyaVersarry -->
-                <div class=" flex justify-center">
+                <!-- Free 5GB Data -->
+                <div class=" flex justify-center md:h-full h-1/2">
                     <div class="w-full flex flex-row bg-slate-100 rounded-xl">
-                        <img src="./assets/image/call-center.png" class="pt-7" alt="call-center">
+                        <img src="./assets/image/call-center.png" class="pt-7 w-1/2" alt="call-center">
                         <div class="w-full flex flex-col justify-center items-start px-4">
-                            <h1 class="font-bold text-2xl">Free 5GB Data</h1>
+                            <h1 class="font-bold md:text-2xl text-xl">Free 5GB Data</h1>
                             <div class="w-full flex flex-row justify-start items-center space-x-2 cursor-pointer py-3">
                                 <p class="text-sm text-secondary font-bold">Learn More</p>
                                 <span><img src="./assets/image/arrow-right.png" alt="arrow-right"></span>
@@ -122,58 +122,58 @@
                 </div>
 
                 <!-- Content -->
-                <div class="w-full flex flex-row flex-wrap justify-between sm:py-10">
+                <div class="w-full flex flex-row sm:flex-nowrap flex-wrap overflow-x-auto md:gap-0 gap-5 justify-between sm:py-10">
                     <!-- Card Category -->
-                    <div class="border-2 p-5 xl:my-0 my-2 flex flex-col items-center justify-center rounded-lg space-y-4 cursor-pointer hover:border-none hover:shadow-lg">
+                    <div class="flex-shrink-0 border-2 p-5 xl:my-0 my-2 flex flex-col items-center justify-center rounded-lg space-y-4 cursor-pointer hover:border-none hover:shadow-lg">
                         <div class="border-4 sm:border-dashed border-none">
                             <img src="./assets/image/tshirt.png" class="w-24" alt="tshirt">
                         </div>
                         <h1 class="text-xl font-semibold text-secondary2">Fashion</h1>
                         <h1 class="text-gray-400">290K Items</h1>
                     </div>
-                    <div class="border-2 p-5 xl:my-0 my-2 flex flex-col items-center justify-center rounded-lg space-y-4 cursor-pointer hover:border-none hover:shadow-lg">
+                    <div class="flex-shrink-0 border-2 p-5 xl:my-0 my-2 flex flex-col items-center justify-center rounded-lg space-y-4 cursor-pointer hover:border-none hover:shadow-lg">
                         <div class="border-4 sm:border-dashed border-none">
                             <img src="./assets/image/android.png" class="w-24" alt="tshirt">
                         </div>
                         <h1 class=" font-semibold text-secondary2">Handphone</h1>
                         <h1 class="text-gray-400">3M Items</h1>
                     </div>
-                    <div class="border-2 p-5 xl:my-0 my-2 flex flex-col items-center justify-center rounded-lg space-y-4 cursor-pointer hover:border-none hover:shadow-lg">
+                    <div class="flex-shrink-0 border-2 p-5 xl:my-0 my-2 flex flex-col items-center justify-center rounded-lg space-y-4 cursor-pointer hover:border-none hover:shadow-lg">
                         <div class="border-4 sm:border-dashed border-none">
                             <img src="./assets/image/laptop.png" class="w-24" alt="tshirt">
                         </div>
                         <h1 class="text-xl font-semibold text-secondary2">Laptop</h1>
                         <h1 class="text-gray-400">1,2M Items</h1>
                     </div>
-                    <div class="border-2 p-5 xl:my-0 my-2 flex flex-col items-center justify-center rounded-lg space-y-4 cursor-pointer hover:border-none hover:shadow-lg">
+                    <div class="flex-shrink-0 border-2 p-5 xl:my-0 my-2 flex flex-col items-center justify-center rounded-lg space-y-4 cursor-pointer hover:border-none hover:shadow-lg">
                         <div class="border-4 sm:border-dashed border-none">
                             <img src="./assets/image/music.png" class="w-24" alt="tshirt">
                         </div>
                         <h1 class="text-xl font-semibold text-secondary2">Music</h1>
                         <h1 class="text-gray-400">751K Items</h1>
                     </div>
-                    <div class="border-2 p-5 xl:my-0 my-2 flex flex-col items-center justify-center rounded-lg space-y-4 cursor-pointer hover:border-none hover:shadow-lg">
+                    <div class="flex-shrink-0 border-2 p-5 xl:my-0 my-2 flex flex-col items-center justify-center rounded-lg space-y-4 cursor-pointer hover:border-none hover:shadow-lg">
                         <div class="border-4 sm:border-dashed border-none">
                             <img src="./assets/image/camera.png" class="w-24" alt="tshirt">
                         </div>
                         <h1 class="truncate font-semibold text-secondary2">Photography</h1>
                         <h1 class="text-gray-400">1,0K Items</h1>
                     </div>
-                    <div class="border-2 p-5 xl:my-0 my-2 flex flex-col items-center justify-center rounded-lg space-y-4 cursor-pointer hover:border-none hover:shadow-lg">
+                    <div class="flex-shrink-0 border-2 p-5 xl:my-0 my-2 flex flex-col items-center justify-center rounded-lg space-y-4 cursor-pointer hover:border-none hover:shadow-lg">
                         <div class="border-4 sm:border-dashed border-none">
                             <img src="./assets/image/chair.png" class="w-24" alt="tshirt">
                         </div>
                         <h1 class="text-xl font-semibold text-secondary2">Furniture</h1>
                         <h1 class="text-gray-400">88K Items</h1>
                     </div>
-                    <div class="border-2 p-5 xl:my-0 my-2 flex flex-col items-center justify-center rounded-lg space-y-4 cursor-pointer hover:border-none hover:shadow-lg">
+                    <div class="flex-shrink-0 border-2 p-5 xl:my-0 my-2 flex flex-col items-center justify-center rounded-lg space-y-4 cursor-pointer hover:border-none hover:shadow-lg">
                         <div class="border-4 sm:border-dashed border-none">
                             <img src="./assets/image/stetoskop.png" class="w-24" alt="tshirt">
                         </div>
                         <h1 class="text-xl font-semibold text-secondary2">Health</h1>
                         <h1 class="text-gray-400">761K Items</h1>
                     </div>
-                    <div class="border-2 p-5 xl:my-0 my-2 flex flex-col items-center justify-center rounded-lg space-y-4 cursor-pointer hover:border-none hover:shadow-lg">
+                    <div class="flex-shrink-0 border-2 p-5 xl:my-0 my-2 flex flex-col items-center justify-center rounded-lg space-y-4 cursor-pointer hover:border-none hover:shadow-lg">
                         <div class="border-4 sm:border-dashed border-none">
                             <img src="./assets/image/soccer.png" class="w-24" alt="tshirt">
                         </div>
@@ -190,23 +190,23 @@
 
                 <div class="w-full flex flex-row sm:justify-between justify-center py-5">
                     <h1 class="text-2xl font-bold text-secondary2">Recomended for You</h1>
-                    <button class="border-2 border-secondary py-2 px-5 rounded-full text-secondary font-semibold sm:block hidden">Show All</button>
+                    <button class="border-2 border-secondary py-2 px-5 rounded-full text-secondary font-semibold md:block hidden">Show All</button>
                 </div>
 
-                <div class="w-full flex sm:space-x-7 space-x-0 sm:flex-row flex-col py-10 text-center">
-                    <div class="w-full flex flex-col space-y-7 sm:mt-0 mt-5 justify-center items-center">
+                <div class="w-full flex sm:space-x-7 space-x-0 sm:flex-row md:overflow-hidden overflow-x-auto flex-col py-10 text-center">
+                    <div class="flex-shrink-0 md:flex-1 flex flex-col space-y-7 sm:mt-0 mt-5 justify-center items-center ">
                         <img src="./assets/image/item-recomended.png" class="max-w-xs container" alt="laptop">
                         <h1 class="sm:text-base text-xl">The best Anti Aging Cream with cheap price</h1>
                     </div>
-                    <div class="w-full flex flex-col space-y-7 sm:mt-0 mt-5 justify-center items-center">
+                    <div class="flex-shrink-0 md:flex-1 flex flex-col space-y-7 sm:mt-0 mt-5 justify-center items-center">
                         <img src="./assets/image/item-recomended.png" class="max-w-xs container" alt="laptop">
                         <h1 class="sm:text-base text-xl">Best budget Headphone for RPG Gamers</h1>
                     </div>
-                    <div class="w-full flex flex-col space-y-7 sm:mt-0 mt-5 justify-center items-center">
+                    <div class="flex-shrink-0 md:flex-1 flex flex-col space-y-7 sm:mt-0 mt-5 justify-center items-center">
                         <img src="./assets/image/item-recomended.png" class="max-w-xs container" alt="laptop">
                         <h1 class="sm:text-base text-xl">Have a much project? You must have a this Savage Laptop</h1>
                     </div>
-                    <div class="w-full flex flex-col space-y-7 sm:mt-0 mt-5 justify-center items-center">
+                    <div class="flex-shrink-0 md:flex-1 flex flex-col space-y-7 sm:mt-0 mt-5 justify-center items-center">
                         <img src="./assets/image/item-recomended.png" class="max-w-xs container" alt="laptop">
                         <h1 class="sm:text-base text-xl">Bored work from home? You can make a juice for your health</h1>
                     </div>
@@ -220,22 +220,276 @@
                 
             </div>
 
+            <!-- Why Choose us -->
+
+            <div class="grid grid-rows-2 grid-flow-col gap-5 place-items-center my-10">
+                <h1 class="text-3xl text-secondary2 font-semibold">Why Choose us than other?</h1>
+                <h1 class="text-gray-500 max-w-lg text-center">Many reasons why customer choose us than other ecommerce. We have some plus point that maybe other can’t have.</h1>
+            </div>
+
+            <div class="grid sm:grid-rows-2 grid-rows-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 grid-flow-col place-content-center gap-5">
+                <img src="./assets/image/finance.png" class="row-span-2 md:block hidden" alt="finance_accounting">
+                <div class="flex flex-col justify-center items-start border border-gray-300 px-10 md:py-0 py-10">
+                    <img src="./assets/image/womenwallet.png" class=" border-4 border-dashed w-20" alt="womenwallet">
+                    <h1 class="text-xl text-secondary2 font-semibold py-3">Have Most Stock</h1>
+                    <h1 class="text-gray-500 max-w-lg md:text-base text-sm text-left">We have many stock until next year to supply your needs.</h1>
+                </div>
+                <div class="flex flex-col justify-center items-start border border-gray-300 px-10 md:py-0 py-10">
+                    <img src="./assets/image/callcenter.png" class="border-4 border-dashed w-20" alt="womenwallet">
+                    <h1 class="text-xl text-secondary2 font-semibold py-3">24/7 Support</h1>
+                    <h1 class="text-gray-500 max-w-lg md:text-base text-sm text-left">If any problem use our plattform you can contact us free.</h1>
+                </div>
+                <div class="flex flex-col justify-center items-start border border-gray-300 px-10 md:py-0 py-10">
+                    <img src="./assets/image/secure.png" class="border-4 border-dashed w-20" alt="womenwallet">
+                    <h1 class="text-xl text-secondary2 font-semibold py-3">100% Secure</h1>
+                    <h1 class="text-gray-500 max-w-lg md:text-base text-sm text-left">You don’t need to worry when transaction on our plattform now.</h1>
+                </div>
+                <div class="flex flex-col justify-center items-start border border-gray-300 px-10 md:py-0 py-10">
+                    <img src="./assets/image/icondelivery.png" class="border-4 border-dashed w-20" alt="womenwallet">
+                    <h1 class="text-xl text-secondary2 font-semibold py-3">Free Delivery</h1>
+                    <h1 class="text-gray-500 max-w-lg md:text-base text-sm text-left">Wherever you are, we make sure you get free delivery service.</h1>
+                </div>
+            </div>
+            <div class="flex justify-center">
+                <img src="./assets/image/finance.png" class="row-span-2 block md:hidden py-10 sm:w-2/3 w-full" alt="finance_accounting">
+            </div>
+
+            <div class="border border-b-0 mt-20"></div>
             
+            <!-- Most Sold -->
+
+            <div class="grid grid-rows-2 grid-flow-col gap-5 place-items-center my-10">
+                <h1 class="text-3xl text-secondary2 font-semibold">Most Sold in Ehya Store</h1>
+                <h1 class="text-gray-500 max-w-lg text-center">This is the seciton about the data which product with most sold in Ehya Store.</h1>
+            </div>
+
+            <div class="flex flex-col gap-5">
+                <div class="flex-1  p-10 bg-bgmostsold rounded-lg bg-opacity-10">
+                    <div class="flex md:flex-row flex-col md:justify-between">
+                        <div class="flex sm:flex-row flex-col items-center sm:gap-20 gap-5">
+                            <img src="./assets/image/item-recomended.png" class="md:w-full sm:w-1/4 w-2/3 md:h-full sm:h-1/4 h-2/3" alt="most_sold">
+                            <div class="flex flex-col gap-5 place-content-center sm:place-items-start place-items-center">
+                                <h1 class="text-secondary2 font-semibold md:text-2xl text-lg">Asus Zenbook UX-430 US</h1>
+                                <div class="flex flex-row gap-5 place-items-center">
+                                    <h1 class="text-secondary2 font-semibold md:text-xl text-base">4,8</h1>
+                                    <div class="flex flex-row justify-between md:gap-2 gap-0 md:h-fit h-1/2">
+                                        <img src="./assets/image/starfill.png" alt="">
+                                        <img src="./assets/image/starfill.png" alt="">
+                                        <img src="./assets/image/starfill.png" alt="">
+                                        <img src="./assets/image/starfill.png" alt="">
+                                        <img src="./assets/image/starempty.png" alt="">
+                                    </div>
+                                </div>
+                                <h1 class="text-gray-400 md:text-lg text-sm">21K Total Reviews</h1>
+                            </div>
+                        </div>
+
+                        <div class="flex sm:flex-row flex-col sm:px-0 px-10 items-center md:justify-center justify-end md:pt-0 pt-10 gap-5">
+                            <button class="text-white bg-secondary sm:w-auto w-full py-2 px-7 rounded-full">Read Reviews</button>
+                            <button class="flex flex-row items-center gap-2 justify-center sm:w-auto w-full text-secondary border-2 border-secondary rounded-full py-2 px-4"><span><img src="./assets/image/shoppingcart.png" alt=""></span> Buy</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-1  p-10 bg-bgmostsold rounded-lg bg-opacity-10">
+                    <div class="flex md:flex-row flex-col md:justify-between">
+                        <div class="flex sm:flex-row flex-col items-center sm:gap-20 gap-5">
+                            <img src="./assets/image/item-recomended.png" class="md:w-full sm:w-1/4 w-2/3 md:h-full sm:h-1/4 h-2/3" alt="most_sold">
+                            <div class="flex flex-col gap-5 place-content-center sm:place-items-start place-items-center">
+                                <h1 class="text-secondary2 font-semibold md:text-2xl text-lg">Audio Technica ATH M20 BT</h1>
+                                <div class="flex flex-row gap-5 place-items-center">
+                                    <h1 class="text-secondary2 font-semibold md:text-xl text-base">5,0</h1>
+                                    <div class="flex flex-row justify-between md:gap-2 gap-0 md:h-fit h-1/2">
+                                        <img src="./assets/image/starfill.png" alt="">
+                                        <img src="./assets/image/starfill.png" alt="">
+                                        <img src="./assets/image/starfill.png" alt="">
+                                        <img src="./assets/image/starfill.png" alt="">
+                                        <img src="./assets/image/starempty.png" alt="">
+                                    </div>
+                                </div>
+                                <h1 class="text-gray-400 md:text-lg text-sm">300K Total Reviews</h1>
+                            </div>
+                        </div>
+
+                        <div class="flex sm:flex-row flex-col sm:px-0 px-10 items-center md:justify-center justify-end md:pt-0 pt-10 gap-5">
+                            <button class="text-white bg-secondary sm:w-auto w-full py-2 px-7 rounded-full">Read Reviews</button>
+                            <button class="flex flex-row items-center gap-2 justify-center sm:w-auto w-full text-secondary border-2 border-secondary rounded-full py-2 px-4"><span><img src="./assets/image/shoppingcart.png" alt=""></span> Buy</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-1  p-10 bg-bgmostsold rounded-lg bg-opacity-10">
+                    <div class="flex md:flex-row flex-col md:justify-between">
+                        <div class="flex sm:flex-row flex-col items-center sm:gap-20 gap-5">
+                            <img src="./assets/image/item-recomended.png" class="md:w-full sm:w-1/4 w-2/3 md:h-full sm:h-1/4 h-2/3" alt="most_sold">
+                            <div class="flex flex-col gap-5 place-content-center sm:place-items-start place-items-center">
+                                <h1 class="text-secondary2 font-semibold md:text-2xl text-lg">SK II - Anti Aging Cream</h1>
+                                <div class="flex flex-row gap-5 place-items-center">
+                                    <h1 class="text-secondary2 font-semibold md:text-xl text-base">4,9</h1>
+                                    <div class="flex flex-row justify-between md:gap-2 gap-0 md:h-fit h-1/2">
+                                        <img src="./assets/image/starfill.png" alt="">
+                                        <img src="./assets/image/starfill.png" alt="">
+                                        <img src="./assets/image/starfill.png" alt="">
+                                        <img src="./assets/image/starfill.png" alt="">
+                                        <img src="./assets/image/starempty.png" alt="">
+                                    </div>
+                                </div>
+                                <h1 class="text-gray-400 md:text-lg text-sm">89K Total Reviews</h1>
+                            </div>
+                        </div>
+
+                        <div class="flex sm:flex-row flex-col sm:px-0 px-10 items-center md:justify-center justify-end md:pt-0 pt-10 gap-5">
+                            <button class="text-white bg-secondary sm:w-auto w-full py-2 px-7 rounded-full">Read Reviews</button>
+                            <button class="flex flex-row items-center gap-2 justify-center sm:w-auto w-full text-secondary border-2 border-secondary rounded-full py-2 px-4"><span><img src="./assets/image/shoppingcart.png" alt=""></span> Buy</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-1  p-10 bg-bgmostsold rounded-lg bg-opacity-10">
+                    <div class="flex md:flex-row flex-col md:justify-between">
+                        <div class="flex sm:flex-row flex-col items-center sm:gap-20 gap-5">
+                            <img src="./assets/image/item-recomended.png" class="md:w-full sm:w-1/4 w-2/3 md:h-full sm:h-1/4 h-2/3" alt="most_sold">
+                            <div class="flex flex-col gap-5 place-content-center sm:place-items-start place-items-center">
+                                <h1 class="text-secondary2 font-semibold md:text-2xl text-lg">Modena Juice Blender</h1>
+                                <div class="flex flex-row gap-5 place-items-center">
+                                    <h1 class="text-secondary2 font-semibold md:text-xl text-base">4,8</h1>
+                                    <div class="flex flex-row justify-between md:gap-2 gap-0 md:h-fit h-1/2">
+                                        <img src="./assets/image/starfill.png" alt="">
+                                        <img src="./assets/image/starfill.png" alt="">
+                                        <img src="./assets/image/starfill.png" alt="">
+                                        <img src="./assets/image/starfill.png" alt="">
+                                        <img src="./assets/image/starempty.png" alt="">
+                                    </div>
+                                </div>
+                                <h1 class="text-gray-400 md:text-lg text-sm">871 Total Reviews</h1>
+                            </div>
+                        </div>
+
+                        <div class="flex sm:flex-row flex-col sm:px-0 px-10 items-center md:justify-center justify-end md:pt-0 pt-10 gap-5">
+                            <button class="text-white bg-secondary sm:w-auto w-full py-2 px-7 rounded-full">Read Reviews</button>
+                            <button class="flex flex-row items-center gap-2 justify-center sm:w-auto w-full text-secondary border-2 border-secondary rounded-full py-2 px-4"><span><img src="./assets/image/shoppingcart.png" alt=""></span> Buy</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex justify-center py-14">
+                    <h1 class="text-secondary font-semibold">See Full Leaderboards</h1>
+                </div>
+
+            </div>
+
+
+        </div>
+
+        <!-- Compare Product -->
+
+        <div class="w-full flex flex-col px-20 pb-10 bt-5 mb-20 bg-bgcomparison">
+            <div class="flex md:flex-row flex-col gap-7 justify-between items-center py-20">
+                <h1 class="text-2xl font-bold text-secondary2">Compare the Product</h1>
+                <button class="border-2 border-secondary py-2 px-5 rounded-full text-secondary font-semibold">+ New Comparison</button>
+            </div>
+
+            <div class="flex flex-row flex-1 md:flex-nowrap sm:flex-wrap flex-nowrap overflow-auto md:justify-between sm:justify-evenly justify-between gap-7">
+                <div class="flex flex-col sm:w-1/3 items-center sm:flex-shrink flex-shrink-0 px-5 py-5 gap-10 bg-white">
+                    <div class="flex flex-1 flex-col items-center justify-center">
+                        <img src="./assets/image/item-recomended.png" class="md:p-10 p-1" alt="">
+                        <h1 class="text-secondary2 md:text-xl text-base text-center font-bold">Asus Zenbook Pro UX-430 US</h1>
+                    </div>
+
+                    <div class="border border-b-0 w-full"></div>
+                
+                    <div class=" space-y-2 flex flex-col items-center">
+                        <img src="./assets/image/prosesor.png" class="border-4 md:border-dashed border-none w-1/4" alt="">
+                        <h1 class="text-secondary2 md:text-xl text-base font-semibold">Processor</h1>
+                        <h1 class="text-gray-400 md:text-lg text-sm md:text-left text-center">Intel® Core™ i3 7100U Processor</h1>
+                    </div>
+
+                    <div class=" space-y-2 flex flex-col items-center">
+                        <img src="./assets/image/cd.png" class="border-4 md:border-dashed border-none w-1/4" alt="">
+                        <h1 class="text-secondary2 md:text-xl text-base md:text-left text-center font-semibold">Operating System</h1>
+                        <h1 class="text-gray-400 md:text-lg text-sm md:text-left text-center">Windows 10 Pro for business</h1>
+                    </div>
+
+                    <img src="./assets/image/angledown.png" alt="">
+                </div>
+                <div class="flex flex-col sm:w-1/3 items-center sm:flex-shrink flex-shrink-0 px-5 py-5 gap-10 bg-white">
+                    <div class="flex flex-1 flex-col items-center justify-center">
+                        <img src="./assets/image/item-recomended.png" class="md:p-10 p-1" alt="">
+                        <h1 class="text-secondary2 md:text-xl text-base text-center font-bold">Lenovo Legion Y545 2018</h1>
+                    </div>
+                
+                    <div class="border border-b-0 w-full"></div>
+                
+                    <div class=" space-y-2 flex flex-col items-center">
+                        <img src="./assets/image/prosesor.png" class="border-4 md:border-dashed border-none w-1/4" alt="">
+                        <h1 class="text-secondary2 md:text-xl text-base font-semibold">Processor</h1>
+                        <h1 class="text-gray-400 md:text-lg text-sm md:text-left text-center">Intel® Core™ i7 9100P Processor</h1>
+                    </div>
+
+                    <div class=" space-y-2 flex flex-col items-center">
+                        <img src="./assets/image/cd.png" class="border-4 md:border-dashed border-none w-1/4" alt="">
+                        <h1 class="text-secondary2 md:text-xl text-base md:text-left text-center font-semibold">Operating System</h1>
+                        <h1 class="text-gray-400 md:text-lg text-sm md:text-left text-center">Windows 10 Pro Enterprise</h1>
+                    </div>
+
+                    <img src="./assets/image/angledown.png" alt="">
+                </div>
+                <div class="flex flex-col sm:w-1/3 items-center sm:flex-shrink flex-shrink-0 px-5 py-5 gap-10 bg-white">
+                    <div class="flex flex-1 flex-col items-center justify-center">
+                        <img src="./assets/image/item-recomended.png" class="md:p-10 p-1" alt="">
+                        <h1 class="text-secondary2 md:text-xl text-base text-center font-bold">Acer Swift Air SF-313 51</h1>
+                    </div>
+
+                    <div class="border border-b-0 w-full"></div>
+                
+                    <div class=" space-y-2 flex flex-col items-center">
+                        <img src="./assets/image/prosesor.png" class="border-4 md:border-dashed border-none w-1/4" alt="">
+                        <h1 class="text-secondary2 md:text-xl text-base font-semibold">Processor</h1>
+                        <h1 class="text-gray-400 md:text-lg text-sm md:text-left text-center">Intel® Core™ i3 7100X Processor</h1>
+                    </div>
+
+                    <div class=" space-y-2 flex flex-col items-center">
+                        <img src="./assets/image/cd.png" class="border-4 md:border-dashed border-none w-1/4" alt="">
+                        <h1 class="text-secondary2 md:text-xl text-base md:text-left text-center font-semibold">Operating System</h1>
+                        <h1 class="text-gray-400 md:text-lg text-sm md:text-left text-center">Windows 10 Pro for business</h1>
+                    </div>
+                    <img src="./assets/image/angledown.png" alt="">
+                </div>
+                <div class="flex flex-col sm:w-1/3 items-center sm:flex-shrink flex-shrink-0 px-5 py-5 gap-10 bg-white">
+                    <div class="flex flex-1 flex-col items-center justify-center">
+                        <img src="./assets/image/item-recomended.png" class="md:p-10 p-1" alt="">
+                        <h1 class="text-secondary2 md:text-xl text-base text-center font-bold">Lenovo Thinkpad Y51 X1 2019</h1>
+                    </div>
+
+                    <div class="border border-b-0 w-full"></div>
+                
+                    <div class=" space-y-2 flex flex-col items-center">
+                        <img src="./assets/image/prosesor.png" class="border-4 md:border-dashed border-none w-1/4" alt="">
+                        <h1 class="text-secondary2 md:text-xl text-base font-semibold">Processor</h1>
+                        <h1 class="text-gray-400 md:text-lg text-sm md:text-left text-center">Intel® Core™ i5 8000C Processor</h1>
+                    </div>
+
+                    <div class=" space-y-2 flex flex-col items-center">
+                        <img src="./assets/image/cd.png" class="border-4 md:border-dashed border-none w-1/4" alt="">
+                        <h1 class="text-secondary2 md:text-xl text-base md:text-left text-center font-semibold">Operating System</h1>
+                        <h1 class="text-gray-400 md:text-lg text-sm md:text-left text-center">Windows 10 Pro for business</h1>
+                    </div>
+
+                    <img src="./assets/image/angledown.png" alt="">
+                </div>
+            </div>
         </div>
 
         <!-- Email Subscribe -->
 
-        <div class="px-12"">
-            <div class="grid grid-cols-2 grid-flow-row gap-10 bg-search rounded-lg">
-                <div class="flex justify-center items-center">
+        <div class="sm:px-12 ">
+            <div class="grid md:grid-cols-2 grid-cols-1 grid-rows-2 place-items-center md:grid-rows-1 md:grid-flow-row grid-flow-col gap-10 bg-search sm:rounded-lg">
+                <div class="flex justify-center items-center md:order-first order-last">
                     <img src="./assets/image/foreign.png" class="relative top-10" alt="">
                 </div>
-                <div class="flex flex-col justify-center items-start space-y-7">
+                <div class="flex flex-col justify-center sm:py-0 py-10 md:items-start md:px-0 px-20 items-center space-y-7">
                     <h1 class="text-white font-semibold text-3xl">Never Miss a Promo</h1>
-                    <h1 class="text-white text-xl pr-64">We always give our customer a promo to gave the appreciate for loyalty to us. Just subscribe to us :)</h1>
-                    <div class="flex flex-row w-max relative">
-                        <input type="text" class="pr-64 pl-5 py-5 rounded-xl" placeholder="yourname@mail.com">
-                        <button class="absolute right-5 top-3 bg-search px-3 py-2 rounded-xl">Subscribe</button>
+                    <h1 class="text-white sm:text-xl text-lg md:pr-64 sm:px-0 md:text-left text-center">We always give our customer a promo to gave the appreciate for loyalty to us. Just subscribe to us :)</h1>
+                    <div class="flex flex-col relative md:w-1/2 w-full sm:h-full h-32 sm:bg-none bg-white sm:rounded-xl rounded-2xl border border-white">
+                        <input type="text" class="w-full sm:text-left text-center rounded-xl p-5 outline-none" placeholder="yourname@mail.com">
+                        <button class="text-white absolute bg-search rounded-xl p-3 sm:right-3 sm:top-2 sm:bottom-2 bottom-3 self-center sm:w-max w-11/12">Subscribe</button>
                     </div>
                 </div>
             </div>
@@ -243,41 +497,42 @@
 
         <!-- Footer -->
         <div class="w-full flex flex-col px-20 my-20">
-            <div class="grid grid-cols-5 grid-flow-row gap-5 font-bold text-lg text-secondary2 mt-10 mb-5">
-                <div>
-                    <img src="./assets/image/Logo.png" alt="">
+            <div class="grid md:grid-cols-5 sm:grid-cols-3 grid-cols-2 md:grid-rows-1 grid-rows-2 grid-flow-row gap-16 border border-blue-600">
+                <div class="flex flex-col gap-7 md:row-span-1 row-span-2 sm:col-span-1 col-span-2 sm:items-start items-center sm:px-0 px-10 sm:order-none order-last border border-blue-600">
+                    <img src="./assets/image/Logo.png" class="w-fit" alt="logo footer">
+                    <h1 class="text-gray-400 md:text-base text-sm sm:text-left text-center">Build a modern and creative website with crealand</h1>
+                    <div class="flex flex-row gap-2 md:hidden sm:w-7 border border-red-600">
+                        <img src="./assets/image/circle.png" alt="">
+                        <img src="./assets/image/circle.png" alt="">
+                        <img src="./assets/image/circle.png" alt="">
+                        <img src="./assets/image/circle.png" alt="">
+                    </div>
                 </div>
-                <div>Product</div>
-                <div>Services</div>
-                <div>Company</div>
-                <div>More</div>
-            </div>
-
-            <div class="grid grid-cols-5 grid-flow-row gap-5">
-                <div class="flex flex-col justify-start space-y-5 text-font1 text-sm">
-                    <h1>Build a modern and creative website with crealand</h1>
-                </div>
-                <div class="flex flex-col justify-start space-y-5 text-secondary2 text-sm font-semibold">
+                <div class="flex flex-col items-start gap-7 text-font1">
+                    <h1 class="text-secondary2 text-xl font-bold">Product</h1>
                     <h1>Landingpage</h1>
                     <h1>Features</h1>
-                    <h1>Documentation</h1>
+                    <h1>Documentation</h1> 
                     <h1>Referral Program</h1>
                     <h1>Pricing</h1>
                 </div>
-                <div class="flex flex-col justify-start space-y-5 text-secondary2 text-sm font-semibold">
+                <div class="flex flex-col items-start gap-7 text-font1">
+                    <h1 class="text-secondary2 text-xl font-bold">Services</h1>
                     <h1>Documentation</h1>
                     <h1>Design</h1>
                     <h1>Themes</h1>
-                    <h1>Illustrations</h1>
-                    <h1>UI Kit</h1>
+                    <h1>Illustration</h1>
+                    <h1>UI</h1>
                 </div>
-                <div class="flex flex-col justify-start space-y-5 text-secondary2 text-sm font-semibold">
+                <div class="flex flex-col items-start gap-7 text-font1">
+                    <h1 class="text-secondary2 text-xl font-bold">Company</h1>
                     <h1>About</h1>
                     <h1>Terms</h1>
                     <h1>Privacy Policy</h1>
                     <h1>Careers</h1>
                 </div>
-                <div class="flex flex-col justify-start space-y-5 text-secondary2 text-sm font-semibold">
+                <div class="flex flex-col items-start gap-7 text-font1">
+                    <h1 class="text-secondary2 text-xl font-bold">More</h1>
                     <h1>Documentation</h1>
                     <h1>License</h1>
                     <h1>Changelog</h1>

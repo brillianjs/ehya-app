@@ -9,6 +9,8 @@ module.exports = {
         search: "#00B8D9",
         secondary2: "#183B56",
         font1: "#5A7184",
+        bgmostsold: "#B3BAC5",
+        bgcomparison: "#F9FBFE",
       },
     },
   },
